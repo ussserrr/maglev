@@ -1,7 +1,7 @@
 /*********************************************
  * vim:sw=8:ts=8:si:et
  * To use the above modeline in vim you must have "set modeline" in your .vimrc
- * Author: Guido Socher 
+ * Author: Guido Socher
  * Copyright:LGPL V2
  * See http://www.gnu.org/licenses/old-licenses/lgpl-2.0.html
  *
@@ -21,7 +21,7 @@
 #undef UDP_client
 // a server answering to UDP messages
 #define UDP_server
-// a web server 
+// a web server
 #undef WWW_server
 
 // to send out a ping:
@@ -35,7 +35,7 @@
 #undef GRATARP
 
 // a "web browser". This can be use to upload data
-// to a web server on the internet by encoding the data 
+// to a web server on the internet by encoding the data
 // into the url (like a Form action of type GET):
 #undef WWW_client
 // if you do not need a browser and just a server:

@@ -8,21 +8,21 @@
 
 typedef struct _PIDdata {
 
-	//pid factors
-	volatile float Kp;
-	volatile float Ki;
-	volatile float Kd;
+    //pid factors
+    volatile float Kp;
+    volatile float Ki;
+    volatile float Kd;
 
-	//pid terms
-	volatile float Perr;
-	volatile float Ierr;
-	volatile float Derr;
+    //pid terms
+    volatile float Perr;
+    volatile float Ierr;
+    volatile float Derr;
 
-	//pid terms limits
-	volatile float Perrmin;
-	volatile float Perrmax;
-	volatile float Ierrmin;
-	volatile float Ierrmax;
+    //pid terms limits
+    volatile float Perrmin;
+    volatile float Perrmax;
+    volatile float Ierrmin;
+    volatile float Ierrmax;
 
 } PIDdata, *ptrPIDdata;
 

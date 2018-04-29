@@ -8,5 +8,5 @@
 #include "_delay_us.h"
 
 void _delay_us(uint32_t us) {
-	SysCtlDelay(SysCtlClockGet()/3000000*us) ;  // more accurate
+    SysCtlDelay(SysCtlClockGet()/3000000*us) ;  // more accurate
 }

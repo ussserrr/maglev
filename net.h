@@ -1,7 +1,7 @@
 /*********************************************
  * vim:sw=8:ts=8:si:et
  * To use the above modeline in vim you must have "set modeline" in your .vimrc
- * Author: Guido Socher 
+ * Author: Guido Socher
  * Copyright:LGPL V2
  * See http://www.gnu.org/licenses/old-licenses/lgpl-2.0.html
  *
@@ -20,7 +20,7 @@
 #define NET_H
 
 // ******* ETH *******
-#define ETH_HEADER_LEN	14
+#define ETH_HEADER_LEN  14
 // values of certain bytes:
 #define ETHTYPE_ARP_H_V 0x08
 #define ETHTYPE_ARP_L_V 0x06
@@ -57,7 +57,7 @@
 #define ETH_ARP_DST_IP_P 0x26
 
 // ******* IP *******
-#define IP_HEADER_LEN	20
+#define IP_HEADER_LEN   20
 // ip.src
 #define IP_SRC_P 0x1a
 #define IP_DST_P 0x1e
@@ -71,7 +71,7 @@
 #define IP_ID_H_P 0x12
 #define IP_ID_L_P 0x13
 
-#define IP_PROTO_P 0x17  
+#define IP_PROTO_P 0x17
 
 #define IP_PROTO_ICMP_V 1
 #define IP_PROTO_TCP_V 6
@@ -90,7 +90,7 @@
 #define ICMP_DATA_P 0x2a
 
 // ******* UDP *******
-#define UDP_HEADER_LEN	8
+#define UDP_HEADER_LEN  8
 //
 #define UDP_SRC_PORT_H_P 0x22
 #define UDP_SRC_PORT_L_P 0x23
